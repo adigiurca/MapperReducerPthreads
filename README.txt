@@ -1,6 +1,3 @@
-Giurca Ionut-Adrian
-Gr. 334AB
-
 Calculul paralel al unui index inversat folosind paradigma Map-Reduce
 
 Am ales sa rezolv aceasta problema folosind C++. 
@@ -22,7 +19,7 @@ Fiecare reducer:
 	- proceseaza cuvintele prelucrate care incep cu literele asignate reducer-ului respectiv (ex. un reducer proceseaza cuvintele
 	  care incep cu a, b, c, d iar alt reducer de la e la h etc.)
 	- foloseste un mutex pentru accesul sigur la datele colectate de mapperi
-	- sorteaza cuvintele descrescator in functie de numarul de fisiere din care provin si crescator in cazul in care numarul de 	 	  fisiere este egal
+	- sorteaza cuvintele descrescator in functie de numarul de fisiere din care provin si crescator in cazul in care numarul de fisiere este egal
 	- paralelizarea in aceasta faza consta in prelucarea simultana a mai multor intervale diferite de litere de catre reduceri
 
 
