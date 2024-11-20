@@ -27,4 +27,8 @@ Aceasta implementare are un defect intrucat asignarea fisierelor de procesare la
 
 Rularea programului se face in urmatorul fel:
 	./tema1 M R file_in.txt (unde M reprezinta numarul de thread-uri mapper iar R numarul de thread-uri reducer)
-	
+	De asemenea fisierul file_in.txt trebuie sa aiba urmatorul format:
+		numar_fisiere_de_procesat
+		fisier1
+		...
+		fisierN
